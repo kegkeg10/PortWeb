@@ -183,3 +183,25 @@ a {
     margin: 0 20px;
     letter-spacing: 2px;
 }
+
+@media only screen and (max-width: 1000px) {
+    ul {
+        display: none;
+        background-color: #2b2c38;
+        margin: 0ppx;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2b2c38;
+    }
+
+    .logo {
+        display: none;
+    }
+}
