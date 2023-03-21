@@ -1,0 +1,185 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;;
+}
+
+
+section {
+    background-color: rgb(228, 228, 228);
+    border: solid rgb(0, 0, 0) 2.5px;
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 97vh;
+    color: white;
+    font-size: 35px;
+}
+
+footer {
+    padding: 80px;
+    background-image: linear-gradient(to right, hsl(0, 0%, 0%),rgba(153, 24, 24, 0.987)0, #801414dc);
+    color: white;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+p {
+    margin: 7px;
+    font-size: 30px;
+}
+
+.subtext {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    width: 210px;
+    height: 41px;
+    background-color: coral;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.button:hover {
+    background-color: #ef744b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 80px;
+    margin: 10px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.sub-section-alter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 55px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.project-image {
+    margin-top: 0px;
+    width: 300px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+}
+.skills h2 {
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.skills li {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 20px;
+    letter-spacing: 2px;
+}
